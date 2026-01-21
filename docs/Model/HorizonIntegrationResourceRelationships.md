@@ -1,0 +1,9 @@
+# # HorizonIntegrationResourceRelationships
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**background_process** | [**\Dimer47\Model\HorizonIntegrationResourceRelationshipsBackgroundProcess**](HorizonIntegrationResourceRelationshipsBackgroundProcess.md) |  | [optional]
+
+[[Back to Model list]](../../README.md#models) [[Back to API list]](../../README.md#endpoints) [[Back to README]](../../README.md)

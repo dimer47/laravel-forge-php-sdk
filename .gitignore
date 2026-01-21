@@ -1,0 +1,40 @@
+# Composer
+composer.phar
+
+# php-cs-fixer cache
+.php_cs.cache
+
+# Dependencies
+/vendor/
+composer.lock
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+.phpunit.result.cache
+.phpunit.cache/
+coverage/
+
+# Build
+build/
+dist/
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# PHP CS Fixer
+.php-cs-fixer.cache

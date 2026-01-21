@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Laravel Forge API Documentation
+    url: https://forge.laravel.com/api-documentation
+    about: Official Laravel Forge API documentation
+  - name: Discussions
+    url: https://github.com/dimer47/laravel-forge-sdk/discussions
+    about: Ask questions and discuss ideas

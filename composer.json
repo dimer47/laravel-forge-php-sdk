@@ -1,0 +1,58 @@
+{
+    "name": "dimer47/laravel-forge-sdk",
+    "description": "PHP SDK for Laravel Forge API - Auto-generated from OpenAPI specification",
+    "version": "1.0.0",
+    "keywords": [
+        "laravel",
+        "forge",
+        "api",
+        "sdk",
+        "php",
+        "openapi",
+        "server",
+        "deployment",
+        "hosting"
+    ],
+    "homepage": "https://github.com/dimer47/laravel-forge-sdk",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Dimitri Iachi",
+            "email": "iachi.dimitri@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.3",
+        "guzzlehttp/psr7": "^1.7 || ^2.0"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.5",
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^10.0 || ^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dimer47\\LaravelForgeSdk\\": "lib/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dimer47\\LaravelForgeSdk\\Test\\": "test/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "cs-fix": "php-cs-fixer fix",
+        "analyse": "phpstan analyse"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
